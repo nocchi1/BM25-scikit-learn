@@ -23,6 +23,6 @@ X_valid = vectorizer.transform(valid_texts)
 
 ## Parameters
 In addition to the parameters available in TfidfVectorizer, the following parameters can be specified
-- `k1` (float, default=1.5) : This parameter adjusts the saturation of term frequency.
+- `k1` (float, default=1.2) : This parameter adjusts the saturation of term frequency.
 - `b` (float, default=0.75) : This parameter controls the length normalization of the document.
 - `sqrt_tf` (bool, default=True) : This parameter specifies whether to apply square root scaling to the term frequency.
