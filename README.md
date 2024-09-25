@@ -3,6 +3,10 @@
 This repository provides an implementation of the Okapi BM25 algorithm following the scikit-learn API standards. \
 This implementation can be used in the same way as TfidfVectorizer or CountVectorizer.
 
+## Environment
+- Python version: 3.10.11
+- scikit-learn version: 1.5.2
+
 ## Usage
 ```python
 
